@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Web Symbols';
+    src: url('../fonts/WebSymbols-Regular.woff2') format('woff2'),
+        url('../fonts/WebSymbols-Regular.woff') format('woff'),
+        url('../fonts/WebSymbols-Regular.svg#WebSymbols-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-MediumItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Medium.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Light.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded Book';
+    src: url('../fonts/GothamRounded-Book.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded Book';
+    src: url('../fonts/GothamRounded-BookItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-LightItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-UltraItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-UltraItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-BoldItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+body{
+	font-family:'Gotham';
+}
+
+.navbar{
+	height:10vh;
+	padding:0;
+	margin:0;
+}
+
+#mainBody{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+#header{
+	min-height:50px;
+	height:10vh;
+	width:100%;
+}
+#headerRow{
+	min-height:50px;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+#logo{
+	width:100%;
+	height:100%;
+	min-width: 200px;
+	display:block;
+	position:absolute;
+	background:url('../img/logo.png') left no-repeat;
+	background-size:contain;
+}
+
+#headerList{
+	border:0;
+	padding:1vh 0 0 0;
+	margin:0;
+	height:100%;
+	font-size: 1.5vh;
+	margin:0 auto;
+}
+
+#headerList li{
+	padding:0.2vh;
+	margin:0;
+	border:0;
+}
+
+span.webSym{
+	font-family: 'Web Symbols';
+	color:#3e9d03;
+}
