@@ -40,56 +40,229 @@
 					</div>
 				</div>
 				<div class="row">
-					<div id="formArea" class="col-6">
-						&nbsp;Enter Zip Code or City:
-						<div class="inputWrapper">
-							<input type="text" class="form-control" id="filter" aria-describedby="ZIP Code" placeholder="Does not have to be where you live." />
-							<span class="step">1</span>
+					<div class="col-6 centered">
+						<div id="formArea">
+							&nbsp;Enter Zip Code or City:
+							<div class="inputWrapper">
+								<input type="text" class="form-control" id="filter" aria-describedby="ZIP Code" placeholder="Does not have to be where you live." />
+								<span class="step">1</span>
+							</div>
+							<div id="listGroup" class="col-sm-6 onlineText">
+					          <ul class="list-group">
+					            <li class="list-group-item">Andrews, TX <span class="lblue">79714</span></li>
+					            <li class="list-group-item">Waldo, FL <span class="lblue">32694</span></li>
+					            <li class="list-group-item">San Diego, CA <span class="lblue">92199</span></li>
+					            <li class="list-group-item">Mount Vernon, SD <span class="lblue">57363</span></li>
+					            <li class="list-group-item">Fayetteville, NC <span class="lblue">28303</span></li>
+					            <li class="list-group-item">Englishtown, NJ <span class="lblue">07726</span></li>
+					            <li class="list-group-item">Westminster, MD <span class="lblue">21157</span></li>
+					            <li class="list-group-item">Wadsworth, OH <span class="lblue">44281</span></li>
+					            <li class="list-group-item">Biloxi, MS <span class="lblue">39532</span></li>
+					            <li class="list-group-item">Richmond, VA <span class="lblue">23223</span></li>
+					            <li class="list-group-item">Minneapolis, MN <span class="lblue">55406</span></li>
+					            <li class="list-group-item">Nanuet, NY <span class="lblue">10954</span></li>
+					            <li class="list-group-item">Marietta, GA <span class="lblue">30008</span></li>
+					          </ul>
+					        </div>
+							<br />
+							&nbsp;Choose a Category:
+							<div class="inputWrapper">
+								<span class="step">2</span>
+								<select id="catSelect" class="form-control" autocomplete="off" placeholder="Click to choose a legal category.">
+								  	<option selected>Click to choose a legal category.</option>
+								  	<option value="1" data-style="opt-new">Family</option>
+								  	<option value="2" data-style="opt-new">Criminal Defense</option>
+								  	<option value="3" data-style="opt-new">Business</option>
+								  	<option value="4" data-style="opt-new">Personal Injury</option>
+								  	<option value="5" data-style="opt-new">Bankruptcy and Finances</option>
+								  	<option value="6" data-style="opt-new">Products and Services</option>
+								  	<option value="7" data-style="opt-new">Employment</option>
+								  	<option value="8" data-style="opt-new">Immigration</option>
+								  	<option value="9" data-style="opt-new">Wills, Trusts and Estates</option>
+								  	<option value="10" data-style="opt-new">Government</option>
+								  	<option value="11" data-style="opt-new">Intellectual Property</option>
+								 </select>
+							</div>
 						</div>
-						<div id="listGroup" class="col-sm-6 onlineText">
-				          <ul class="list-group">
-				            <li class="list-group-item">Andrews, TX <span class="lblue">79714</span></li>
-				            <li class="list-group-item">Waldo, FL <span class="lblue">32694</span></li>
-				            <li class="list-group-item">San Diego, CA <span class="lblue">92199</span></li>
-				            <li class="list-group-item">Mount Vernon, SD <span class="lblue">57363</span></li>
-				            <li class="list-group-item">Fayetteville, NC <span class="lblue">28303</span></li>
-				            <li class="list-group-item">Englishtown, NJ <span class="lblue">07726</span></li>
-				            <li class="list-group-item">Westminster, MD <span class="lblue">21157</span></li>
-				            <li class="list-group-item">Wadsworth, OH <span class="lblue">44281</span></li>
-				            <li class="list-group-item">Biloxi, MS <span class="lblue">39532</span></li>
-				            <li class="list-group-item">Richmond, VA <span class="lblue">23223</span></li>
-				            <li class="list-group-item">Minneapolis, MN <span class="lblue">55406</span></li>
-				            <li class="list-group-item">Nanuet, NY <span class="lblue">10954</span></li>
-				            <li class="list-group-item">Marietta, GA <span class="lblue">30008</span></li>
-				          </ul>
-				        </div>
 						<br />
-						&nbsp;Choose a Category:
-						<div class="inputWrapper">
-							<input type="text" class="form-control basicAutoComplete" id="inputZIP" aria-describedby="category" placeholder="Click to choose a legal category." autocomplete="off" />
-							<span class="step">2</span>
-						</div>
+						<div class="clickHere"><span class="roundedGotham"><a href="" data-toggle="modal" data-target="#clickHereModal">Can't find your category? Click here.</span></a></div>
 					</div>
 					<div class="col">
-						
+						<div class="container">
+							<div class="row">
+								<div class="col">&nbsp;</div>
+								<div class="col-10"><h4 class="thinHeader">Clients review LegalMatch lawyers</h4></div>
+								<div class="col">&nbsp;</div>
+							</div>
+							<div class="row">
+								<div class="col">&nbsp;</div>
+								<div class="col-10">
+									<br />
+									<div class="cardHolder">
+										<div class="row">
+											<div class="imgHolder col-4">
+												<div class="image-cropper">
+												    <img src="img/mitchell.jpg" class="cropCircle rounded" />
+												</div>
+												Mitchell M.
+												<span class="subName">Cherry Hill, NJ</span>
+											</div>
+											<div class="infoHolder col">
+												<div class="row testimonialTitle">Family Law  &nbsp;<span class="ochre">RRRRR</span></div>
+												<div class="row">
+													<span class="quote">This lawyer exceeded my expectations. I found attorney Mullen to be very reliable, courteous, prompt..."</span>
+												</div>
+												<div class="row readMore"><a href="">Read Review &nbsp;<span class="wingding">&</span></a></div>
+											</div>
+										</div>
+									</div>
+									<hr />
+									<div class="cardHolder">
+										<div class="row">
+											<div class="imgHolder col-4">
+												<div class="image-cropper">
+												    <img src="img/joel.jpg" class="cropCircle rounded" />
+												</div>
+												Joel C.
+												<span class="subName">Little Rock, AK</span>
+											</div>
+											<div class="infoHolder col">
+												<div class="row testimonialTitle">Job & Employment Law  &nbsp;<span class="ochre">RRRRR</span></div>
+												<div class="row">
+													<span class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit aliquam, ultrices ante sed, mattis mi..."</span>
+												</div>
+												<div class="row readMore"><a href="">Read Review &nbsp;<span class="wingding">&</span></a></div>
+											</div>
+										</div>
+									</div>
+									<hr />
+									<div class="cardHolder">
+										<div class="row">
+											<div class="imgHolder col-4">
+												<div class="image-cropper">
+												    <img src="img/brigida.jpg" class="cropCircle rounded" />
+												</div>
+												Brigida R.
+												<span class="subName">Dallas, TX</span>
+											</div>
+											<div class="infoHolder col">
+												<div class="row testimonialTitle">Family Law  &nbsp;<span class="ochre">RRRRR</span></div>
+												<div class="row">
+													<span class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit aliquam, ultrices ante sed, mattis mi..."</span>
+												</div>
+												<div class="row readMore"><a href="">Read Review &nbsp;<span class="wingding">&</span></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col">&nbsp;</div>
+							</div>
+							<br />
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row rowFooter">
 			<div id="footer" class="container">
-				<div class="row">
+				<div class="row" style="text-align:center;">
 					<div class="col">
-						
+						<div id="logoBottom">&nbsp;</div>
 					</div>
-					<div class="col-9">
-						
+					<div class="col-8">
+						<div id="menuBottom">
+							<span class="menuItemBottom">User Agreement</span>&bull;<span class="menuItemBottom">Privacy Policy</span>&bull;<span class="menuItemBottom">Site Map</span>	
+							<br />
+							<br />
+							<div class="row" style="width:100%;text-align: center;display: block;">Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch&#174;,</div>
+							<div class="row" style="width:100%;text-align: center;display: block;">the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.</div>
+						</div>
 					</div>
-					<div class="col">
-						
+					<div class="iconBox">
+						<div class="row">
+							<div class="col">
+								<a href="#"><div id="etrustBox">&nbsp;</div></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<a href="#"><div id="bloomBox">&nbsp;</div></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="modal fade" id="clickHereModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <span class="step">3</span><span class="modalQuestion">Which Family law issue(s) apply to your case?</span>
+		        <div class="row checkBoxModal">
+		        	<div class="col-6">
+		        		<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Adoptions
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Guardianship
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Child Custody and Visitation
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Paternity
+						  </label>
+						</div>
+		        	</div>
+		        	<div class="col-6">
+		        		<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Child Support
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Separations
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Divorce
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    Spousal Support and Alimony
+						  </label>
+						</div>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary modalBtn">FIND A LAWYER NOW</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 	</div>
 </body>

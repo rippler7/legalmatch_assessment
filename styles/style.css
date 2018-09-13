@@ -32,7 +32,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham Medium Italic';
     src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
         url('../fonts/Gotham-MediumItalic.woff') format('woff');
     font-weight: 500;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham Light Italic';
     src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
         url('../fonts/Gotham-LightItalic.woff') format('woff');
     font-weight: 300;
@@ -112,7 +112,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham Rounded';
+    font-family: 'Gotham Rounded Light';
     src: url('../fonts/GothamRounded-Light.woff2') format('woff2'),
         url('../fonts/GothamRounded-Light.woff') format('woff');
     font-weight: 300;
@@ -144,7 +144,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham Thin Italic';
     src: url('../fonts/Gotham-ThinItalic.woff2') format('woff2'),
         url('../fonts/Gotham-ThinItalic.woff') format('woff');
     font-weight: 100;
@@ -198,6 +198,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Wingdings';
+    src: url('../fonts/Wingdings-Regular.woff2') format('woff2'),
+        url('../fonts/Wingdings-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 html,body{
@@ -268,7 +277,7 @@ body{
 
 #contentBody{
 	width:100%;
-	height:570px;
+	min-height:570px;
 	color:#FFF;
 	padding:10px;
 }
@@ -283,6 +292,7 @@ body{
 
 #formArea{
 	padding-top:30px;
+	text-align:left;
 }
 
 .form-control{
@@ -293,7 +303,7 @@ body{
 }
 
 span.step {
-  background: #d68d00;
+  background-color: #d68d00;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -309,6 +319,44 @@ span.step {
   left:10px;
 }
 
+.ochre{
+	font-family: 'Web Symbols';
+	color: #d68d00;
+	letter-spacing: 0.2em;
+}
+
+.subName{
+	font-family: "Gotham Medium";
+	font-size:0.7em;
+}
+
+.testimonialTitle{
+	font-size:.8em;
+}
+
+.quote{
+	font-family: "Gotham Light Italic";
+	font-weight: thin;
+	font-size:0.6em;
+	padding-top:1em;
+}
+
+.wingding{
+	font-family:"Wingdings";
+}
+
+.readMore{
+	width:100%;
+	font-size:0.6em;
+	text-align:right;
+	display:block;
+}
+
+.readMore, .readMore a, .readMore a:hover{
+	color:#f4b946;
+	text-decoration:none;
+}
+
 .inputWrapper{
 	position:relative;
     padding:0;
@@ -322,6 +370,10 @@ input.form-control{
 	border:none;
 }
 
+.thinHeader{
+	font-family: "Gotham Extra Light";
+}
+
 .onlineText{
 	color:#333;
 	display:none;
@@ -332,17 +384,95 @@ input.form-control{
 	font-size:.7em;
 }
 
+.centered{
+	text-align:center;
+}
+
+.modalQuestion{
+	padding-left:2em;
+}
+
+.modal-footer{
+	text-align: center;
+	display:block;
+}
+
+.modalBtn{
+	border-radius:2em;
+	background-color: #02377b;
+}
+
+.clickHere, .clickHere a, .clickHere a:active{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
 .onlineText li{
 	width:inherit;
 	padding:0.8em 2em;
 	cursor:pointer;
 }
 
+select.form-control{
+	border: none;
+	border-radius:2em !important;
+	padding:1em;
+	font-size:0.8em !important;
+	padding-left:50px !important;
+	height:50px !important;
+	margin:0;
+	width:100%;
+}
+#catSelect:active{
+	border:none;
+}
+
+select#catSelect > option {
+  padding:.2rem;
+}
+
+
+.opt-new:hover{
+	color: #bcd3e3;
+}
+
+.roundedGotham{
+	font-family:"Gotham Rounded Light";
+}
+
+.imgHolder{
+	text-align:center;
+}
+
+.image-cropper {
+    width: 62px;
+    height: 62px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:0px auto;
+}
+
+img.cropCircle {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.subName{
+	font-size:.8em;
+}
+
 .rowFooter{
 	width:100%;
+	height: 100%
 }
 
 #footer{
+	display: block;
+	position: relative !important;
 	height:240px;
 	width:100%;
 	margin:0 auto;
@@ -352,6 +482,65 @@ input.form-control{
 	position:relative;
 	padding:0;
 	background-color:#FFF;
+}
+#footer > .row{
+	height:100%;
+}
+
+#logoBottom{
+	width:196px;
+	height:60px;
+	display:block;
+	background:url("../img/logo_bottom.png") center no-repeat;
+	background-size:contain;
+	top:50%;
+	transform: translateY(-50%);
+	position:absolute;
+}
+
+#menuBottom{
+	font-size:0.7em;
+	color:#999;
+	text-align: center;
+	width:100%;
+	height: 100%;
+	padding:2rem;
+	padding-top:5rem;
+	font-family: "Gotham Light";
+}
+
+.menuItemBottom{
+	padding:0 4em;
+}
+
+.iconBox{
+	margin:0 auto;
+	height: auto;
+	display:block;
+}
+
+.iconBox div.row{
+	padding:10px;
+}
+#etrustBox{
+	width:125px;
+	height:60px;
+	background:url('../img/etrust.png') center no-repeat;
+	background-size: contain;
+}
+#bloomBox{
+	width:125px;
+	height:60px;
+	background:url('../img/bloomlegal.png') center no-repeat;
+	background-size: cover;
+}
+
+.checkBoxModal{
+	font-size:.7em;
+}
+
+.checkBoxModal .form-check{
+	padding:1em;
 }
 
 span.webSym{
