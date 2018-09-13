@@ -176,7 +176,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham Extra';
+    font-family: 'Gotham Extra Light';
     src: url('../fonts/Gotham-ExtraLight.woff2') format('woff2'),
         url('../fonts/Gotham-ExtraLight.woff') format('woff');
     font-weight: 200;
@@ -224,13 +224,14 @@ body{
 }
 
 #header{
-	min-height:50px;
-	height:10vh;
+	min-height:90px;
+	height:auto;
 	width:100%;
+	background:#FFF;
 }
 #headerRow{
-	min-height:50px;
-	height:100%;
+	min-height:90px;
+	height:auto;
 	width:100%;
 	padding:0;
 	margin:0;
@@ -248,10 +249,10 @@ body{
 
 #headerList{
 	border:0;
-	padding:1vh 0 0 0;
+	padding:2vh 0 1vh 0;
 	margin:0;
 	height:100%;
-	font-size: 1.5vh;
+	font-size: 11px;
 	margin:0 auto;
 }
 
@@ -261,22 +262,103 @@ body{
 	border:0;
 }
 
+.bodyContent{
+	background: linear-gradient(#032965,#1479b5);
+}
+
 #contentBody{
 	width:100%;
-	height:70vh;
+	height:570px;
+	color:#FFF;
+	padding:10px;
+}
+
+#contentBody h1{
+	font-family: 'Gotham Extra Light';
+}
+
+#contentTitle{
+
+}
+
+#formArea{
+	padding-top:30px;
+}
+
+.form-control{
+	border: none;
+	border-radius:2em;
+	padding:1.5rem;
+	font-size:0.8em;
+}
+
+span.step {
+  background: #d68d00;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+  position: absolute;
+  top:10px;
+  left:10px;
+}
+
+.inputWrapper{
+	position:relative;
+    padding:0;
+    margin:0;
+    height:auto;
+}
+
+input.form-control{
+	margin:0px;
+	padding-left:50px;
+	border:none;
+}
+
+.onlineText{
+	color:#333;
+	display:none;
+	z-index:2;
+	position: absolute;
+	width:inherit;
+	padding:0;
+	font-size:.7em;
+}
+
+.onlineText li{
+	width:inherit;
+	padding:0.8em 2em;
+	cursor:pointer;
+}
+
+.rowFooter{
+	width:100%;
 }
 
 #footer{
-	min-height:100px;
-	height:20vh;
+	height:240px;
 	width:100%;
-	margin:auto auto 0 auto;
+	margin:0 auto;
+	left:0;
 	bottom:0;
 	clear:both;
 	position:relative;
+	padding:0;
+	background-color:#FFF;
 }
 
 span.webSym{
 	font-family: 'Web Symbols';
 	color:#3e9d03;
+}
+
+span.lblue{
+	color:#1479b5;
 }
